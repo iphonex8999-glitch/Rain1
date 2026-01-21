@@ -1,0 +1,16 @@
+Package: qi
+Version: 0.0.1-9+debug
+Architecture: iphoneos-arm64
+Maintainer: qi
+Installed-Size: 360
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/qi_0.0.1-9+debug_iphoneos-arm64.deb
+Size: 18594
+MD5sum: 68f66d8a0f13852c78b89bcc44a6d98a
+SHA1: 05edb54eed1e3ec7073d4432b5ab3e7092603326
+SHA256: c6dd5aa624874000ea4ab78c6cc32929c5af6eb4099718e761c123d265871b6b
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: qi
+Name: GeminiOverlay
+
