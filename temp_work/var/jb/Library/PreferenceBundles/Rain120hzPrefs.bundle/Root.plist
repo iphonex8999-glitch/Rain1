@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<!-- 激活码 -->
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>激活</string>
+			<key>footerText</key>
+			<string>请输入您的激活码以解锁全部功能。</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>com.rain.120hz</string>
+			<key>key</key>
+			<string>licenseKey</string>
+			<key>label</key>
+			<string>激活码</string>
+			<key>placeholder</key>
+			<string>请输入激活码</string>
+			<key>isSecure</key>
+			<false />
+			<key>keyboard</key>
+			<string>default</string>
+			<key>PostNotification</key>
+			<string>com.rain.120hz/prefsChanged</string>
+			<key>id</key>
+			<string>licenseKeyCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>立即激活</string>
+			<key>action</key>
+			<string>verifyLicense</string>
+			<key>id</key>
+			<string>activateButtonCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSTitleValueCell</string>
+			<key>label</key>
+			<string>激活状态</string>
+			<key>id</key>
+			<string>activationStatusCell</string>
+			<key>get</key>
+			<string>getActivationStatusValue:</string>
+		</dict>
+		
+		<!-- 通用设置 -->
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>通用设置</string>
+			<key>footerText</key>
+			<string>强制高帧率应用到每一个应用上。需要重启应用生效。</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true />
+			<key>defaults</key>
+			<string>com.rain.120hz</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>启用插件</string>
+			<key>PostNotification</key>
+			<string>com.rain.120hz/prefsChanged</string>
+		</dict>
+		
+		<!-- 帧率设置 -->
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>帧率设置</string>
+			<key>footerText</key>
+			<string>选择目标帧率。如果设备不支持所选帧率，将自动使用设备最高帧率。</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSegmentCell</string>
+			<key>default</key>
+			<integer>120</integer>
+			<key>defaults</key>
+			<string>com.rain.120hz</string>
+			<key>key</key>
+			<string>targetFPS</string>
+			<key>label</key>
+			<string>目标帧率</string>
+			<key>validValues</key>
+			<array>
+				<integer>48</integer>
+				<integer>60</integer>
+				<integer>80</integer>
+				<integer>120</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>48Hz</string>
+				<string>60Hz</string>
+				<string>80Hz</string>
+				<string>120Hz</string>
+			</array>
+			<key>PostNotification</key>
+			<string>com.rain.120hz/prefsChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true />
+			<key>defaults</key>
+			<string>com.rain.120hz</string>
+			<key>key</key>
+			<string>forceMinimumFPS</string>
+			<key>label</key>
+			<string>动态最小帧率</string>
+			<key>PostNotification</key>
+			<string>com.rain.120hz/prefsChanged</string>
+		</dict>
+		
+		<!-- Metal 优化 -->
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Metal 优化</string>
+			<key>footerText</key>
+			<string>优化 Metal 渲染管线，提升游戏和图形应用性能。</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true />
+			<key>defaults</key>
+			<string>com.rain.120hz</string>
+			<key>key</key>
+			<string>metalOptimization</string>
+			<key>label</key>
+			<string>启用 Metal 优化</string>
+			<key>PostNotification</key>
+			<string>com.rain.120hz/prefsChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true />
+			<key>defaults</key>
+			<string>com.rain.120hz</string>
+			<key>key</key>
+			<string>lowLatencyMode</string>
+			<key>label</key>
+			<string>低延迟模式</string>
+			<key>PostNotification</key>
+			<string>com.rain.120hz/prefsChanged</string>
+		</dict>
+		
+		<!-- 应用黑名单 -->
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>应用管理</string>
+			<key>footerText</key>
+			<string>管理需要排除的应用。</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>Rain120hzAppListController</string>
+			<key>label</key>
+			<string>应用黑名单</string>
+		</dict>
+		
+		<!-- 关于 -->
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>关于</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>重启 SpringBoard</string>
+			<key>action</key>
+			<string>respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>版本 1.0</string>
+			<key>footerText</key>
+			<string>作者: Rain</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Rain的120Hz</string>
+</dict>
+</plist>

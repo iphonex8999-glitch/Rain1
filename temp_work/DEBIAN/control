@@ -1,0 +1,11 @@
+Package: com.rain.120hz
+Name: rain的120hz
+Description: 强制高帧率应用到每一个应用上
+Maintainer: rain
+Author: rain
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.01
+Installed-Size: 468
+SileoDepiction: https://rain1-d1l.pages.dev/depictions/120hz.json
