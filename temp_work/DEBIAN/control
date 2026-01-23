@@ -1,11 +1,11 @@
 Package: com.rain.120hz
 Name: rain的120hz
-Description: 强制高帧率应用到每一个应用上
+Description: 动态调节120hz刷新率，设置了4个档位，分别是48、60、80、120hz.默认全局注入，可手动屏蔽某些应用。激活码请在闲鱼搜索：雾都原神
 Maintainer: rain
 Author: rain
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
 Architecture: iphoneos-arm64
-Version: 1.03
+Version: 1.1
 Installed-Size: 468
 SileoDepiction: https://rain1-d1l.pages.dev/depictions/120hz.json
