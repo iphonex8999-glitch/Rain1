@@ -1,16 +1,17 @@
-Package: qi
-Version: 0.0.1-9+debug
+Package: com.rain.120hz
+Version: 1.0
 Architecture: iphoneos-arm64
-Maintainer: qi
-Installed-Size: 360
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/qi_0.0.1-9+debug_iphoneos-arm64.deb
-Size: 18594
-MD5sum: 68f66d8a0f13852c78b89bcc44a6d98a
-SHA1: 05edb54eed1e3ec7073d4432b5ab3e7092603326
-SHA256: c6dd5aa624874000ea4ab78c6cc32929c5af6eb4099718e761c123d265871b6b
+Maintainer: rain
+Installed-Size: 468
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/com.rain.120hz.deb
+Size: 39904
+MD5sum: f98e305cb00de87029f482f2675e830d
+SHA1: 21a2fbc2385e5b2dac080fc6a99bdce9b33edeed
+SHA256: 58278396c448393cbf8f10838e8915553b3d0f40e705d142acdb82ae97218dba
 Section: Tweaks
-Description: An awesome MobileSubstrate tweak!
-Author: qi
-Name: GeminiOverlay
+Description: 强制高帧率应用到每一个应用上
+Author: rain
+Name: rain的120hz
+Sileodepiction: https://rain1-d1l.pages.dev/depictions/120hz.json
 
