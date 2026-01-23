@@ -15,3 +15,19 @@ Author: rain
 Name: rain的120hz
 Sileodepiction: https://rain1-d1l.pages.dev/depictions/120hz.json
 
+Package: com.rain.magicsms
+Version: 0.0.1-8+debug
+Architecture: iphoneos-arm64
+Maintainer: rain
+Installed-Size: 232
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.rain.magicsms_0.0.1-8+debug_iphoneos-arm64.deb
+Size: 18366
+MD5sum: 3e777d61999d1869b0056a16dc6ded6c
+SHA1: adc8f715a9a5b8a684bd5a6ade4cea56ac190015
+SHA256: 8cdd10d73a97d8af18f84262310415dd73004a02423c8392055380d25596bb58
+Section: Tweaks
+Description: 免责声明：不存在任何收费且严禁用于商业用途，仅供学习交流使用，严禁用于欺骗与误导，后果自负。本人不承担任何法律责任。输入8开启/关闭
+Author: rain
+Name: MagicSMS
+
