@@ -4,20 +4,20 @@
     "tabs": [
         {
             "class": "DepictionStackView",
-            "tabName": "详情",
+            "tabName": "\u8be6\u60c5",
             "views": [
                 {
                     "class": "DepictionHeaderView",
-                    "title": "120Hz 刷新率锁定"
+                    "title": "120Hz \u5237\u65b0\u7387\u9501\u5b9a"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "## 丝般顺滑\n\n强制你的设备运行在 **120Hz** 激活码闲鱼搜索：雾都原神 高刷新率模式。\n\n**功能特点：**\n- 🚀 解锁系统帧率限制\n- 📱 适用于支持 ProMotion 的设备\n- ⚡️ 提升游戏和滑动体验",
+                    "markdown": "## \u4e1d\u822c\u987a\u6ed1\n\n\u5f3a\u5236\u4f60\u7684\u8bbe\u5907\u8fd0\u884c\u5728 **120Hz** \u9ad8\u5237\u65b0\u7387\u6a21\u5f0f\u3002\n\n**\u529f\u80fd\u7279\u70b9\uff1a**\n- 🚀 \u89e3\u9501\u7cfb\u7edf\u5e27\u7387\u9650\u5236\n- 📱 \u9002\u7528\u4e8e\u652f\u6301 ProMotion \u7684\u8bbe\u5907\n- ⚡️ \u63d0\u5347\u6e38\u620f\u548c\u6ed1\u52a8\u4f53\u9a8c\n\n---\n\n🛒 **\u95f2\u9c7c\u641c\u7d22\uff1a\u96fe\u90fd\u539f\u795e**",
                     "useRawMarkdown": true
                 },
                 {
                     "class": "DepictionTableButtonView",
-                    "title": "访问作者源",
+                    "title": "\u8bbf\u95ee\u4f5c\u8005\u6e90",
                     "action": "https://rain1-d1l.pages.dev"
                 }
             ]
