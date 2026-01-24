@@ -1,19 +1,18 @@
 Package: com.rain.120hz
-Version: 1.1
+Version: 1.0.0-11+debug
 Architecture: iphoneos-arm64
 Maintainer: rain
-Installed-Size: 468
+Installed-Size: 372
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Filename: ./debs/com.rain.120hz.deb
-Size: 40104
-MD5sum: a49e841bdb8740d3221cbec2fdd93efd
-SHA1: 8abbe3d87b46515a86b77683a80b632ea4c84a52
-SHA256: a687da8dabd8a55b1dd3310ec0a5144f90ee79fe0e53183667394cb7063a9f3e
+Filename: ./debs/com.rain.120hz1.0.deb
+Size: 22554
+MD5sum: 25b66ed8474a23567be026d289a09b8b
+SHA1: 11d926f79e6d4c6578035b7d893c5e2ecc7093cf
+SHA256: c17e5dc96b90f3f335c9c52fdc00b9876598896201bf7b4997726ea4f109333e
 Section: Tweaks
-Description: 动态调节120hz刷新率，设置了4个档位，分别是48、60、80、120hz.默认全局注入，可手动屏蔽某些应用。激活码请在闲鱼搜索：雾都原神
+Description: 强制高帧率应用到每一个应用上
 Author: rain
 Name: rain的120hz
-Sileodepiction: https://rain1-d1l.pages.dev/depictions/120hz.json
 
 Package: com.rain.magicsms
 Version: 0.0.1-9+debug
