@@ -31,3 +31,19 @@ Description: 免责声明：不存在任何收费且严禁用于商业用途，�
 Author: rain
 Name: MagicSMS
 
+Package: com.rain.reachnotify
+Version: 0.0.1-148+debug
+Architecture: iphoneos-arm64
+Maintainer: rain
+Installed-Size: 544
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.rain.reachnotify_0.0.1-148+debug_iphoneos-arm64.deb
+Size: 67270
+MD5sum: 5abbb6389eb5ba8f11ef03409de4a6fa
+SHA1: 7804c2a49e8c8a3cafdacad48160690b05c21687
+SHA256: c9513e709420923a81413d3fe8588f3789fd5b703793eec9514e756fc44bdccb
+Section: Tweaks
+Description: 通知显示增强，收到通知能看到图标。
+Author: rain
+Name: Rain的通知
+
