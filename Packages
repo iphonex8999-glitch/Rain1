@@ -30,6 +30,22 @@ Description: 免责声明：不存在任何收费且严禁用于商业用途，�
 Author: rain
 Name: MagicSMS
 
+Package: com.rain.photo
+Version: 1.0-11
+Architecture: iphoneos-arm64
+Maintainer: Rain
+Installed-Size: 360
+Depends: mobilesubstrate, preferenceloader, firmware ( >= 12.0)
+Filename: ./debs/com.rain.photo_0.5.deb
+Size: 21262
+MD5sum: 3f8415cb6469888eb5706239ef7e0815
+SHA1: 902484c5defe524c5c84625c0fad1bca0cfce98c
+SHA256: 7f34319ecd508352f79893c4c8a40c73001c546e18ed7b1dbe17e5fde7fbf0c9
+Section: Tweaks
+Description: Rain Protect My Photos!
+Author: Rain
+Name: Rain
+
 Package: com.rain.reachnotify
 Version: 0.0.1-148+debug
 Architecture: iphoneos-arm64
