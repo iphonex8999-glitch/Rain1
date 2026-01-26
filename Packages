@@ -30,6 +30,22 @@ Description: 免责声明：不存在任何收费且严禁用于商业用途，�
 Author: rain
 Name: MagicSMS
 
+Package: com.rain.model
+Version: 1.0.1-1+debug
+Architecture: iphoneos-arm64
+Maintainer: Rain
+Installed-Size: 496
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/com.rain.model_1.0.1-1+debug_iphoneos-arm64.deb
+Size: 49200
+MD5sum: c28f194d20e90498a95fa22413dc1c7d
+SHA1: 6284c7383db4e268db7ae39051a58a3eea6b84ec
+SHA256: 5ed3a19d4959e87bd7ca6d96d13fa0d02ea1efbb71a81a05ff152dd86e69c0cb
+Section: Tweaks
+Description: 任意魔法自己设备型号！
+Author: Rain
+Name: Rain的设备
+
 Package: com.rain.photo
 Version: 1.0-11
 Architecture: iphoneos-arm64
