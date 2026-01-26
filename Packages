@@ -63,16 +63,16 @@ Author: Rain
 Name: Rain
 
 Package: com.rain.reachnotify
-Version: 0.0.1-151+debug
+Version: 0.0.1-155+debug
 Architecture: iphoneos-arm64
 Maintainer: rain
-Installed-Size: 544
+Installed-Size: 588
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.rain.reachnotify.deb
-Size: 68864
-MD5sum: 44e4be76e971b6901b6e5145757c35d8
-SHA1: 7f1fa7f3d4dac572ca3f68b61954c64a6d830ceb
-SHA256: f25b643a36172d6b5b9a993adad15936053e5f028cecf38ded26563c33a81d2b
+Size: 73568
+MD5sum: 7f8ce7c17ee297c60ca340a507e6a63c
+SHA1: 314412ba15b71e1965b32d3d5181188818bbc998
+SHA256: ac42cc01e069d7054f31971ba02f510ef3c77e0aaa57d4dfd07e92a22e3b84c2
 Section: Tweaks
 Description: 通知显示增强，收到通知能看到图标。
 Author: rain
