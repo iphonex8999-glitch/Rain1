@@ -14,6 +14,22 @@ Description: 强制高帧率应用到每一个应用上
 Author: rain
 Name: rain的120hz
 
+Package: com.rain.dock
+Version: 2.1
+Architecture: iphoneos-arm64
+Maintainer: Rain
+Installed-Size: 508
+Depends: preferenceloader
+Filename: ./debs/com.rain.dock_2.1_iphoneos-arm64.deb
+Size: 56478
+MD5sum: 25a6ff72f8c2f3b6392d2762195ed9a8
+SHA1: 5fe77cf36fad035d23cda690d27182cbfa90dd34
+SHA256: c3a87f36810591fb466b5236ed1e832eb5a752fd6ef907d3bdff8daf9a330762
+Section: Tweaks
+Description: Rain的Dock栏更美观/自定义Dock背景/漂浮图标围绕在Dock上
+Author: Rain
+Name: Rain的Dock
+
 Package: com.rain.magicsms
 Version: 0.0.1-9+debug
 Architecture: iphoneos-arm64
