@@ -15,16 +15,16 @@ Author: rain
 Name: rain的120hz
 
 Package: com.rain.dock
-Version: 2.1
+Version: 2.8
 Architecture: iphoneos-arm64
 Maintainer: Rain
 Installed-Size: 508
 Depends: preferenceloader
-Filename: ./debs/com.rain.dock_2.1_iphoneos-arm64.deb
-Size: 56478
-MD5sum: 25a6ff72f8c2f3b6392d2762195ed9a8
-SHA1: 5fe77cf36fad035d23cda690d27182cbfa90dd34
-SHA256: c3a87f36810591fb466b5236ed1e832eb5a752fd6ef907d3bdff8daf9a330762
+Filename: ./debs/com.rain.dock_2.8_iphoneos-arm64.deb
+Size: 62734
+MD5sum: c2f3cc6dd7190c2abefd0731c2676610
+SHA1: ac1d18c47ff7f0cc0dcb8976c96fc6b22df83db4
+SHA256: 9cbddeb6687bae4a49c5022fc1c886a7fae72ec547f25d288436dc132ca40ed7
 Section: Tweaks
 Description: Rain的Dock栏更美观/自定义Dock背景/漂浮图标围绕在Dock上
 Author: Rain
