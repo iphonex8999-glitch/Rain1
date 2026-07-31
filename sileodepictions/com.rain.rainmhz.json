@@ -15,7 +15,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "## 简介\n\n进行频率控制",
+          "markdown": "## 简介\n\nRain的CPU性能与稳帧控制插件，通过 IOKit 控制 Apple ARM DVFS，提供低发热、均衡、极限性能、智能与稳帧模式。",
           "useSpacing": true,
           "textColor": "#F472B6"
         },
@@ -63,7 +63,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- 🚀 CPU性能状态锁定\n- ✨ 支持低功耗/均衡/高性能模式\n- 🔧 游戏模式与应用级智能调频\n- 📱 电量预估与实时仪表盘",
+          "markdown": "- 🚀 低发热、均衡、极限性能、智能与稳帧模式\n- ⚡️ 通过 IOKit 控制 Apple ARM DVFS\n- 📊 动态仪表盘与性能监控\n- 🎮 分级设置与场景预设\n- 🌡 温控与智能后台管控",
           "useSpacing": true,
           "textColor": "#F472B6"
         },
@@ -85,28 +85,28 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "2.0-1-6",
+          "text": "6.13.0-1",
           "titleColor": "#F472B6",
           "textColor": "#F472B6"
         },
         {
           "class": "DepictionTableTextView",
           "title": "更新时间",
-          "text": "2026-03-21",
+          "text": "2026-07-31",
           "titleColor": "#F472B6",
           "textColor": "#F472B6"
         },
         {
           "class": "DepictionTableTextView",
           "title": "大小",
-          "text": "72 KB",
+          "text": "169 KB",
           "titleColor": "#F472B6",
           "textColor": "#F472B6"
         },
         {
           "class": "DepictionTableTextView",
           "title": "系统兼容",
-          "text": "iOS 15+",
+          "text": "iOS 14+",
           "titleColor": "#F472B6",
           "textColor": "#F472B6"
         },
@@ -172,12 +172,12 @@
       "views": [
         {
           "class": "DepictionHeaderView",
-          "title": "2.0-1-6",
+          "title": "6.13.0-1",
           "textColor": "#F472B6"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- 🎉 版本发布",
+          "markdown": "- 🎉 发布 6.13.0-1 版本\n- 新增智能与稳帧性能模式\n- 更新动态仪表盘、场景预设、温控与后台管控",
           "useSpacing": true,
           "textColor": "#F472B6"
         }
