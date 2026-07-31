@@ -224,21 +224,20 @@ Name: Rain的灵动卡片
 SileoDepiction: https://rain1-d1l.pages.dev/sileodepictions/com.rain.raindyn.json
 
 Package: com.rain.rainmhz
-Version: 3.0-1-2
+Version: 6.13.0-1
 Architecture: iphoneos-arm64
 Maintainer: Rain
-Installed-Size: 620
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
-Filename: ./debs/com.rain.rainmhz_3.0-1-2_iphoneos-arm64.deb
-Size: 75546
-MD5sum: 1e4e8139313dbc18126813c4c96f1820
-SHA1: 2f52ad5974198f766b869ad762b294a48ed21eda
-SHA256: dc1aa074d4e2800db95e7876aba77e136e611d7d93fe33068b2584ef4d7ba538
+Installed-Size: 1116
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), com.opa334.altlist (>= 1.0.4)
+Filename: ./debs/com.rain.rainmhz_6.13.0-1_iphoneos-arm64.deb
+Size: 172852
+MD5sum: d18c9ed029d879d8ffa91f49ad8e3d3c
+SHA1: ff56a78ca7e93086a22d97ccd605a9bf77e4e5b1
+SHA256: 864a5983e59d895354a7081bf4b7979ea0ba85759226a4f227e271de8bdec4c3
 Section: Tweaks
-Description: Rain的CPU频率控制插件 - 14层策略锁定CPU性能状态
- 通过IOKit控制Apple ARM DVFS，支持低功耗/均衡/高性能模式
- 14层策略: 热节流绕过、P/E核独立调控、GPU联动调频、内存带宽控制、Jetsam内存提升
- 游戏模式、应用级智能调频、迷你跑分、实时仪表盘、电量预估
+Description: Rain的CPU性能与稳帧控制插件
+ 通过IOKit控制Apple ARM DVFS，支持低发热、均衡、极限性能、智能与稳帧模式
+ 包含动态仪表盘、分级设置、场景预设、温控、性能监控与智能后台管控
 Tag: role::hacker, purpose::extension
 Author: Rain
 Name: Rain的Mhz
