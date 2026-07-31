@@ -1,0 +1,200 @@
+{
+  "minVersion": "0.1",
+  "tintColor": "#3B82F6",
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "详情",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Rain的操作按钮",
+          "textColor": "#3B82F6"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "## 简介\n\n接管 iPhone 15 Pro/Pro Max 操作按钮，支持单击、双击和长按动作映射，并提供快捷操作、App 与剪贴板三页面磨砂面板。",
+          "useSpacing": true,
+          "textColor": "#3B82F6"
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 12,
+          "itemSize": "{160, 346}",
+          "screenshots": [
+            {
+              "accessibilityText": "磨砂快捷面板",
+              "url": "https://rain1-d1l.pages.dev/assets/screenshots/com.rain.actionbutton/1.png?v=20260731"
+            },
+            {
+              "accessibilityText": "快捷操作槽位配置",
+              "url": "https://rain1-d1l.pages.dev/assets/screenshots/com.rain.actionbutton/2.png?v=20260731"
+            },
+            {
+              "accessibilityText": "测试与维护设置",
+              "url": "https://rain1-d1l.pages.dev/assets/screenshots/com.rain.actionbutton/3.png?v=20260731"
+            },
+            {
+              "accessibilityText": "背景与按键动作设置",
+              "url": "https://rain1-d1l.pages.dev/assets/screenshots/com.rain.actionbutton/4.png?v=20260731"
+            },
+            {
+              "accessibilityText": "插件总览设置",
+              "url": "https://rain1-d1l.pages.dev/assets/screenshots/com.rain.actionbutton/5.png?v=20260731"
+            }
+          ]
+        },
+        {
+          "class": "DepictionImageView",
+          "URL": "https://rain1-d1l.pages.dev/assets/common/gradient_line.png",
+          "height": 2,
+          "horizontalPadding": 0
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "功能特点",
+          "textColor": "#3B82F6"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 🎛 单击、双击与长按动作独立映射\n- ✨ 快捷操作、App、剪贴板三页面磨砂面板\n- 🔧 8 个快捷操作槽位自由配置\n- 📱 支持静音、手电筒、截图、控制中心、Siri、启动 App 等系统动作\n- 🎨 自定义面板背景、透明度与位置\n- ⚡️ 可调双击间隔、长按时间与执行触感",
+          "useSpacing": true,
+          "textColor": "#3B82F6"
+        },
+        {
+          "class": "DepictionImageView",
+          "URL": "https://rain1-d1l.pages.dev/assets/common/gradient_line.png",
+          "height": 2,
+          "horizontalPadding": 0
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "插件数据",
+          "textColor": "#3B82F6"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "0.5.2",
+          "titleColor": "#3B82F6",
+          "textColor": "#3B82F6"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "更新时间",
+          "text": "2026-07-31",
+          "titleColor": "#3B82F6",
+          "textColor": "#3B82F6"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "大小",
+          "text": "92 KB",
+          "titleColor": "#3B82F6",
+          "textColor": "#3B82F6"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "设备兼容",
+          "text": "iPhone 15 Pro / Pro Max",
+          "titleColor": "#3B82F6",
+          "textColor": "#3B82F6"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "系统兼容",
+          "text": "iOS 17.0–17.3.1",
+          "titleColor": "#3B82F6",
+          "textColor": "#3B82F6"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "越狱环境",
+          "text": "RootHide",
+          "titleColor": "#3B82F6",
+          "textColor": "#3B82F6"
+        },
+        {
+          "class": "DepictionImageView",
+          "URL": "https://rain1-d1l.pages.dev/assets/common/gradient_line.png",
+          "height": 2,
+          "horizontalPadding": 0
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "联系作者",
+          "textColor": "#3B82F6"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "获取作者联系",
+          "action": "https://m.tb.cn/h.Ru7sOzK?tk=LVbpgj4vIuD",
+          "openExternal": true,
+          "tintColor": "#3B82F6"
+        },
+        {
+          "class": "DepictionImageView",
+          "URL": "https://rain1-d1l.pages.dev/assets/common/gradient_line.png",
+          "height": 2,
+          "horizontalPadding": 0
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "免责声明",
+          "textColor": "#3B82F6"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "本插件仅供个人学习研究使用，请勿用于任何商业或非法用途。使用本插件所造成的一切后果由用户自行承担，作者不承担任何法律责任。",
+          "useSpacing": true,
+          "textColor": "#999999"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "© 2026 Rain Studio",
+          "useSpacing": false,
+          "textColor": "#BBBBBB",
+          "alignment": 1
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "0.5.2",
+          "textColor": "#3B82F6"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 🎉 发布 RootHide 版本\n- 支持 iPhone 15 Pro/Pro Max 操作按钮\n- 支持 iOS 17.0–17.3.1",
+          "useSpacing": true,
+          "textColor": "#3B82F6"
+        }
+      ]
+    }
+  ]
+}
