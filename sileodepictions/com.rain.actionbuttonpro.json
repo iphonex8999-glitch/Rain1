@@ -1,0 +1,207 @@
+{
+  "minVersion": "0.1",
+  "tintColor": "#8B5CF6",
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "详情",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Rain的操作按钮 Pro",
+          "textColor": "#8B5CF6"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "## 简介\n\n为 iPhone 15 Pro/Pro Max 操作按钮打造的多功能快捷面板，支持 App X光、离开期间摘要、智能剪贴板、Crane 导播台、应用隐藏与组合键。本版为付费版，需激活码授权。",
+          "useSpacing": true,
+          "textColor": "#8B5CF6"
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 12,
+          "itemSize": "{160, 346}",
+          "screenshots": [
+            {
+              "accessibilityText": "设备状态与组合键面板",
+              "url": "https://rain1-d1l.pages.dev/assets/screenshots/com.rain.actionbuttonpro/1.png?v=20260802"
+            },
+            {
+              "accessibilityText": "隐私与应用隐藏",
+              "url": "https://rain1-d1l.pages.dev/assets/screenshots/com.rain.actionbuttonpro/2.png?v=20260802"
+            },
+            {
+              "accessibilityText": "智能剪贴板与面板编辑",
+              "url": "https://rain1-d1l.pages.dev/assets/screenshots/com.rain.actionbuttonpro/3.png?v=20260802"
+            },
+            {
+              "accessibilityText": "App X光面板",
+              "url": "https://rain1-d1l.pages.dev/assets/screenshots/com.rain.actionbuttonpro/4.png?v=20260802"
+            },
+            {
+              "accessibilityText": "Pro 功能与授权设置",
+              "url": "https://rain1-d1l.pages.dev/assets/screenshots/com.rain.actionbuttonpro/5.png?v=20260802"
+            }
+          ]
+        },
+        {
+          "class": "DepictionImageView",
+          "URL": "https://rain1-d1l.pages.dev/assets/common/gradient_line.png",
+          "height": 2,
+          "horizontalPadding": 0
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "功能特点",
+          "textColor": "#8B5CF6"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 🔍 App X光与离开期间摘要\n- 📋 智能剪贴板，识别链接、电话、邮箱与验证码\n- 🎛 多页面板和 8 个快捷操作槽位\n- 📱 单击、双击、三击、四击与组合键操作\n- 📦 Crane 导播台容器切换\n- 🛡 隐藏 App 图标、系统通知与 Pro 通知历史\n- 🎨 自定义背景、透明度、模块顺序与面板位置",
+          "useSpacing": true,
+          "textColor": "#8B5CF6"
+        },
+        {
+          "class": "DepictionImageView",
+          "URL": "https://rain1-d1l.pages.dev/assets/common/gradient_line.png",
+          "height": 2,
+          "horizontalPadding": 0
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "插件数据",
+          "textColor": "#8B5CF6"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "2.1.6",
+          "titleColor": "#8B5CF6",
+          "textColor": "#8B5CF6"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "更新时间",
+          "text": "2026-08-02",
+          "titleColor": "#8B5CF6",
+          "textColor": "#8B5CF6"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "大小",
+          "text": "176 KB",
+          "titleColor": "#8B5CF6",
+          "textColor": "#8B5CF6"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "设备兼容",
+          "text": "iPhone 15 Pro / Pro Max",
+          "titleColor": "#8B5CF6",
+          "textColor": "#8B5CF6"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "系统兼容",
+          "text": "iOS 17.0–17.3.1",
+          "titleColor": "#8B5CF6",
+          "textColor": "#8B5CF6"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "越狱环境",
+          "text": "RootHide",
+          "titleColor": "#8B5CF6",
+          "textColor": "#8B5CF6"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "授权方式",
+          "text": "付费激活码",
+          "titleColor": "#8B5CF6",
+          "textColor": "#8B5CF6"
+        },
+        {
+          "class": "DepictionImageView",
+          "URL": "https://rain1-d1l.pages.dev/assets/common/gradient_line.png",
+          "height": 2,
+          "horizontalPadding": 0
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "联系作者",
+          "textColor": "#8B5CF6"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "获取作者联系",
+          "action": "https://m.tb.cn/h.Ru7sOzK?tk=LVbpgj4vIuD",
+          "openExternal": true,
+          "tintColor": "#8B5CF6"
+        },
+        {
+          "class": "DepictionImageView",
+          "URL": "https://rain1-d1l.pages.dev/assets/common/gradient_line.png",
+          "height": 2,
+          "horizontalPadding": 0
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "免责声明",
+          "textColor": "#8B5CF6"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "本插件仅供个人学习研究使用，请勿用于任何非法用途。使用本插件所造成的一切后果由用户自行承担，作者不承担任何法律责任。",
+          "useSpacing": true,
+          "textColor": "#999999"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "© 2026 Rain Studio",
+          "useSpacing": false,
+          "textColor": "#BBBBBB",
+          "alignment": 1
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "2.1.6",
+          "textColor": "#8B5CF6"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 🎉 发布 Rain的操作按钮 Pro 2.1.6\n- 新增 App X光、离开期间摘要与智能剪贴板\n- 新增 Crane 导播台、应用隐藏与多击组合键",
+          "useSpacing": true,
+          "textColor": "#8B5CF6"
+        }
+      ]
+    }
+  ]
+}
