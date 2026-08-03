@@ -1,0 +1,221 @@
+{
+  "minVersion": "0.1",
+  "tintColor": "#2AAFC2",
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "详情",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "RainFlow 120Hz",
+          "textColor": "#2AAFC2"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "## 简介\n\n专注 80Hz/120Hz 核心调度的精简稳定方案，适合不需要 Pro 扩展功能、注重流畅稳定与低负担的用户。本插件需要激活码授权。",
+          "useSpacing": true,
+          "textColor": "#2AAFC2"
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 12,
+          "itemSize": "{160, 346}",
+          "screenshots": [
+            {
+              "accessibilityText": "RainFlow 版本与核心设置",
+              "url": "https://rain1-d1l.pages.dev/assets/screenshots/com.rain.120hzstable/1.png?v=20260803"
+            },
+            {
+              "accessibilityText": "RainFlow 使用说明",
+              "url": "https://rain1-d1l.pages.dev/assets/screenshots/com.rain.120hzstable/2.png?v=20260803"
+            },
+            {
+              "accessibilityText": "120Hz 快捷面板效果",
+              "url": "https://rain1-d1l.pages.dev/assets/screenshots/com.rain.120hzstable/3.png?v=20260803"
+            },
+            {
+              "accessibilityText": "RainFlow 核心与流畅模式",
+              "url": "https://rain1-d1l.pages.dev/assets/screenshots/com.rain.120hzstable/4.png?v=20260803"
+            },
+            {
+              "accessibilityText": "RainFlow 激活与授权",
+              "url": "https://rain1-d1l.pages.dev/assets/screenshots/com.rain.120hzstable/5.png?v=20260803"
+            }
+          ]
+        },
+        {
+          "class": "DepictionImageView",
+          "URL": "https://rain1-d1l.pages.dev/assets/common/gradient_line.png",
+          "height": 2,
+          "horizontalPadding": 0
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "功能特点",
+          "textColor": "#2AAFC2"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- ⚡️ 80Hz 与 120Hz 目标帧率切换\n- 🌊 默认自适应稳定范围，兼顾流畅度、稳定性与功耗\n- 🎯 严格固定目标帧率模式\n- 🎨 Metal 帧呈现兼容\n- 🔧 QuartzCore 底层帧率仲裁实验模式\n- 🩶 精简设置，低负担运行",
+          "useSpacing": true,
+          "textColor": "#2AAFC2"
+        },
+        {
+          "class": "DepictionImageView",
+          "URL": "https://rain1-d1l.pages.dev/assets/common/gradient_line.png",
+          "height": 2,
+          "horizontalPadding": 0
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "插件数据",
+          "textColor": "#2AAFC2"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "1.3.0",
+          "titleColor": "#2AAFC2",
+          "textColor": "#2AAFC2"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "更新时间",
+          "text": "2026-08-03",
+          "titleColor": "#2AAFC2",
+          "textColor": "#2AAFC2"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "大小",
+          "text": "64 KB",
+          "titleColor": "#2AAFC2",
+          "textColor": "#2AAFC2"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "系统兼容",
+          "text": "iOS 15+",
+          "titleColor": "#2AAFC2",
+          "textColor": "#2AAFC2"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "越狱环境",
+          "text": "Rootless",
+          "titleColor": "#2AAFC2",
+          "textColor": "#2AAFC2"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "授权方式",
+          "text": "激活码",
+          "titleColor": "#2AAFC2",
+          "textColor": "#2AAFC2"
+        },
+        {
+          "class": "DepictionImageView",
+          "URL": "https://rain1-d1l.pages.dev/assets/common/gradient_line.png",
+          "height": 2,
+          "horizontalPadding": 0
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "模式说明",
+          "textColor": "#2AAFC2"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "QuartzCore 底层仲裁与“严格固定目标帧率”、“Metal 帧呈现兼容”互斥，请根据实际体验选择使用。",
+          "useSpacing": true,
+          "textColor": "#2AAFC2"
+        },
+        {
+          "class": "DepictionImageView",
+          "URL": "https://rain1-d1l.pages.dev/assets/common/gradient_line.png",
+          "height": 2,
+          "horizontalPadding": 0
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "联系作者",
+          "textColor": "#2AAFC2"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "获取作者联系",
+          "action": "https://m.tb.cn/h.Ru7sOzK?tk=LVbpgj4vIuD",
+          "openExternal": true,
+          "tintColor": "#2AAFC2"
+        },
+        {
+          "class": "DepictionImageView",
+          "URL": "https://rain1-d1l.pages.dev/assets/common/gradient_line.png",
+          "height": 2,
+          "horizontalPadding": 0
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "免责声明",
+          "textColor": "#2AAFC2"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "本插件仅供个人学习研究使用，请勿用于任何非法用途。使用本插件所造成的一切后果由用户自行承担，作者不承担任何法律责任。",
+          "useSpacing": true,
+          "textColor": "#999999"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "© 2026 Rain Studio",
+          "useSpacing": false,
+          "textColor": "#BBBBBB",
+          "alignment": 1
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.3.0",
+          "textColor": "#2AAFC2"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 🎉 发布 RainFlow 120Hz 1.3.0\n- 支持 80Hz/120Hz 核心帧率调度\n- 提供 QuartzCore 底层仲裁、严格固定与 Metal 兼容模式",
+          "useSpacing": true,
+          "textColor": "#2AAFC2"
+        }
+      ]
+    }
+  ]
+}
