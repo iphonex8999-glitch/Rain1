@@ -51,20 +51,20 @@ Name: Rain的操作按钮
 SileoDepiction: https://rain1-d1l.pages.dev/sileodepictions/com.rain.actionbutton.json
 
 Package: com.rain.actionbuttonpro
-Version: 2.1.6
+Version: 2.2.1
 Architecture: iphoneos-arm64e
 Maintainer: Rain
-Installed-Size: 1240
+Installed-Size: 1320
 Depends: mobilesubstrate, preferenceloader, firmware (>= 17.0)
 Conflicts: com.rain.actionbutton
 Replaces: com.rain.actionbutton
-Filename: ./debs/com.rain.actionbuttonpro_2.1.6_iphoneos-arm64e.deb
-Size: 180074
-MD5sum: ddd1769cbd6ee51974b13238f4a81fcc
-SHA1: 8093d808c43583a8788d758d5c5b39fc67e96b06
-SHA256: 6fa1ec26de28d059dca48b980fbc6ad5b035e91b314f28aecaf473dffda65fb0
+Filename: ./debs/com.rain.actionbuttonpro_2.2.1_iphoneos-arm64e.deb
+Size: 196042
+MD5sum: 4f6710b1afb94af88813ee80ebcd66ad
+SHA1: 41d27693efa954a7e85986850c29544b43ae1a4f
+SHA256: 885ea449c17a5d513e9f7de750409b1acc9bc0d402d471735b0f8478cb2bc843
 Section: Tweaks
-Description: 为操作按钮打造的多功能快捷面板，支持 App X光、离开期间摘要、智能剪贴板、组合键等实用功能。支持 iOS 17.0-17.3.1。
+Description: 为操作按钮打造的多功能快捷面板，支持 App X光 Pro、屏幕智能取词、动态胶囊、离开期间摘要、智能剪贴板和组合键。支持 iOS 17.0-17.3.1。
 Author: Rain
 Name: Rain的操作按钮 Pro
 SileoDepiction: https://rain1-d1l.pages.dev/sileodepictions/com.rain.actionbuttonpro.json
@@ -379,3 +379,4 @@ Section: Tweaks
 Description: 选择2-6张透明PNG图片，一键生成动态壁纸配合Zone插件使用
 Author: Rain
 Name: Rain的锁屏壁纸
+
