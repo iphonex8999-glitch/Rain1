@@ -263,7 +263,7 @@ if [ -z "$SKIP_DEPICTION" ]; then
         {
           "class": "DepictionTableButtonView",
           "title": "获取作者联系",
-          "action": "https://m.tb.cn/h.itXQMBD?tk=jqBN5RBeSQh",
+          "action": "https://m.tb.cn/h.8TsRGyr?tk=g4SogAM1pRG",
           "openExternal": true,
           "tintColor": "${TINT_COLOR}"
         },
