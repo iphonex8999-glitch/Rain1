@@ -261,16 +261,16 @@ Name: Rain的灵动卡片
 SileoDepiction: https://rain1-d1l.pages.dev/sileodepictions/com.rain.raindyn.json
 
 Package: com.rain.rainmhz
-Version: 6.13.0-1
+Version: 6.14.1-1
 Architecture: iphoneos-arm64
 Maintainer: Rain
-Installed-Size: 1116
+Installed-Size: 1320
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), com.opa334.altlist (>= 1.0.4)
-Filename: ./debs/com.rain.rainmhz_6.13.0-1_iphoneos-arm64.deb
-Size: 172852
-MD5sum: d18c9ed029d879d8ffa91f49ad8e3d3c
-SHA1: ff56a78ca7e93086a22d97ccd605a9bf77e4e5b1
-SHA256: 864a5983e59d895354a7081bf4b7979ea0ba85759226a4f227e271de8bdec4c3
+Filename: ./debs/com.rain.rainmhz_6.14.1-1_iphoneos-arm64.deb
+Size: 183568
+MD5sum: 4a445c9d83c5bec92cb2965d31e53ca6
+SHA1: 442bdb9fbfbc18478056547a8cb0965e29fcf810
+SHA256: 0f132e246152c433998af1701d46f40ad0a3f45c12c480c2c284f2afd4faa1b4
 Section: Tweaks
 Description: Rain的CPU性能与稳帧控制插件
  通过IOKit控制Apple ARM DVFS，支持低发热、均衡、极限性能、智能与稳帧模式
