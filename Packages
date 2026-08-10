@@ -51,20 +51,20 @@ Name: Rain的操作按钮
 SileoDepiction: https://rain1-d1l.pages.dev/sileodepictions/com.rain.actionbutton.json
 
 Package: com.rain.actionbuttonpro
-Version: 2.2.1
+Version: 2.5.1
 Architecture: iphoneos-arm64e
 Maintainer: Rain
-Installed-Size: 1320
+Installed-Size: 1504
 Depends: mobilesubstrate, preferenceloader, firmware (>= 17.0)
 Conflicts: com.rain.actionbutton
 Replaces: com.rain.actionbutton
-Filename: ./debs/com.rain.actionbuttonpro_2.2.1_iphoneos-arm64e.deb
-Size: 196042
-MD5sum: 4f6710b1afb94af88813ee80ebcd66ad
-SHA1: 41d27693efa954a7e85986850c29544b43ae1a4f
-SHA256: 885ea449c17a5d513e9f7de750409b1acc9bc0d402d471735b0f8478cb2bc843
+Filename: ./debs/com.rain.actionbuttonpro_2.5.1_iphoneos-arm64e.deb
+Size: 254432
+MD5sum: 0268eb81c191b3068cf1c677bf19400b
+SHA1: 1f1a35107f4e04f3ead86c7100d8d898be75735d
+SHA256: cda716bc6c954a0ea7194669d6c7bebf4dbc12be3637512b7ccdac910628e472
 Section: Tweaks
-Description: 为操作按钮打造的多功能快捷面板，支持 App X光 Pro、屏幕智能取词、动态胶囊、离开期间摘要、智能剪贴板和组合键。支持 iOS 17.0-17.3.1。
+Description: 为操作按钮打造的多功能快捷面板，支持 App 自动取色、液态玻璃主题、自定义面板形状、动态边缘光带、屏幕记忆、长截图和智能剪贴板。支持 iOS 17.0-17.3.1。
 Author: Rain
 Name: Rain的操作按钮 Pro
 SileoDepiction: https://rain1-d1l.pages.dev/sileodepictions/com.rain.actionbuttonpro.json
