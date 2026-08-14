@@ -301,23 +301,6 @@ Name: Rain的Mhz
 SileoDepiction: https://rain1-d1l.pages.dev/sileodepictions/com.rain.rainmhz.json
 
 Package: com.rain.rainscreenframe
-Version: 1.3.1-56+debug
-Architecture: iphoneos-arm64
-Maintainer: Rain
-Installed-Size: 2528
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.rain.rainscreenframe_1.3.1-56+debug_iphoneos-arm64.deb
-Size: 482526
-MD5sum: 410def66c29d8176a44a863c45b66cc7
-SHA1: 7cbf105a10ed561270eb924b86a72f5cd1aa8b45
-SHA256: 9c78120f907bf94d6e93145814ebc598c83638e4e88a50147d273e933c103b8f
-Section: Tweaks
-Description: Rain的套壳截图 - 截屏后弹出工具栏，支持设备套壳、圆角卡片、截图标注、截图拼接、截图转GIF、自定义水印、截图转PDF、截图对比
-Author: Rain
-Name: Rain的套壳截图
-SileoDepiction: https://rain1-d1l.pages.dev/sileodepictions/com.rain.rainscreenframe.json
-
-Package: com.rain.rainscreenframe
 Version: 1.3.9
 Architecture: iphoneos-arm64
 Maintainer: Rain
@@ -328,6 +311,23 @@ Size: 389566
 MD5sum: 22f8ab1eaa7545076b685281b51bb052
 SHA1: ae1850090e0ab048d336aefa3db33a478cfc7d33
 SHA256: 8536ad77fd668391275a4a1dca95f47477ae6d3b123635746dbd9db1cb3e98b7
+Section: Tweaks
+Description: Rain的套壳截图 - 截屏后弹出工具栏，支持设备套壳、圆角卡片、截图标注、截图拼接、截图转GIF、自定义水印、截图转PDF、截图对比
+Author: Rain
+Name: Rain的套壳截图
+SileoDepiction: https://rain1-d1l.pages.dev/sileodepictions/com.rain.rainscreenframe.json
+
+Package: com.rain.rainscreenframe
+Version: 1.4.7
+Architecture: iphoneos-arm64
+Maintainer: Rain
+Installed-Size: 1928
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.rain.rainscreenframe_1.4.7_iphoneos-arm64.deb
+Size: 394168
+MD5sum: c42faaadf29e2037c71dfca404c230aa
+SHA1: e07b07e83e2e99b63af992c93ae582f55642f262
+SHA256: 116161b1c0cc15ee731440770d8c7db6b91c46d4a8d290881865762490aeef30
 Section: Tweaks
 Description: Rain的套壳截图 - 截屏后弹出工具栏，支持设备套壳、圆角卡片、截图标注、截图拼接、截图转GIF、自定义水印、截图转PDF、截图对比
 Author: Rain
