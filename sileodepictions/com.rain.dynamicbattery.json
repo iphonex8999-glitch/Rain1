@@ -1,0 +1,200 @@
+{
+  "minVersion": "0.1",
+  "tintColor": "#22C55E",
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "详情",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Rain的灵动电量",
+          "textColor": "#22C55E"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "## 简介\n\n面向灵动岛机型的电量与外观增强插件，提供智能环岛主题、电池详情面板、状态栏生命线、动态皮肤与 App 色彩气场。本插件需要 Pro 激活授权。",
+          "useSpacing": true,
+          "textColor": "#22C55E"
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 12,
+          "itemSize": "{160, 346}",
+          "screenshots": [
+            {
+              "accessibilityText": "App 色彩气场设置",
+              "url": "https://rain1-d1l.pages.dev/assets/screenshots/com.rain.dynamicbattery/1.png?v=20260815"
+            },
+            {
+              "accessibilityText": "环岛图案、动态皮肤与 App 独立皮肤",
+              "url": "https://rain1-d1l.pages.dev/assets/screenshots/com.rain.dynamicbattery/2.png?v=20260815"
+            },
+            {
+              "accessibilityText": "智能环岛主题与电池详情面板",
+              "url": "https://rain1-d1l.pages.dev/assets/screenshots/com.rain.dynamicbattery/3.png?v=20260815"
+            },
+            {
+              "accessibilityText": "状态栏电量生命线",
+              "url": "https://rain1-d1l.pages.dev/assets/screenshots/com.rain.dynamicbattery/4.png?v=20260815"
+            },
+            {
+              "accessibilityText": "Rain的灵动电量主设置与授权",
+              "url": "https://rain1-d1l.pages.dev/assets/screenshots/com.rain.dynamicbattery/5.png?v=20260815"
+            }
+          ]
+        },
+        {
+          "class": "DepictionImageView",
+          "URL": "https://rain1-d1l.pages.dev/assets/common/gradient_line.png",
+          "height": 2,
+          "horizontalPadding": 0
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "功能特点",
+          "textColor": "#22C55E"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 🏝 智能环岛主题，支持状态变色与呼吸动画\n- 🔋 长按灵动岛查看电量、电流、电压、功率、循环次数与温度\n- 📈 状态栏电量生命线，可选位置与显示样式\n- 🖼 桌面和锁屏使用独立静态或动态环岛图案\n- 🎞 支持 GIF、MP4、MOV 与 M4V 动态素材\n- 📱 为不同 App 设置独立环岛皮肤\n- 🎨 自动提取当前 App 主色生成屏幕边缘色彩气场",
+          "useSpacing": true,
+          "textColor": "#22C55E"
+        },
+        {
+          "class": "DepictionImageView",
+          "URL": "https://rain1-d1l.pages.dev/assets/common/gradient_line.png",
+          "height": 2,
+          "horizontalPadding": 0
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "插件数据",
+          "textColor": "#22C55E"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "1.3.1",
+          "titleColor": "#22C55E",
+          "textColor": "#22C55E"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "更新时间",
+          "text": "2026-08-15",
+          "titleColor": "#22C55E",
+          "textColor": "#22C55E"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "大小",
+          "text": "96 KB",
+          "titleColor": "#22C55E",
+          "textColor": "#22C55E"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "设备兼容",
+          "text": "iPhone 15 系列",
+          "titleColor": "#22C55E",
+          "textColor": "#22C55E"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "越狱环境",
+          "text": "Rootless",
+          "titleColor": "#22C55E",
+          "textColor": "#22C55E"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "授权方式",
+          "text": "Pro 激活授权",
+          "titleColor": "#22C55E",
+          "textColor": "#22C55E"
+        },
+        {
+          "class": "DepictionImageView",
+          "URL": "https://rain1-d1l.pages.dev/assets/common/gradient_line.png",
+          "height": 2,
+          "horizontalPadding": 0
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "联系作者",
+          "textColor": "#22C55E"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "获取作者联系",
+          "action": "https://m.tb.cn/h.8TsRGyr?tk=g4SogAM1pRG",
+          "openExternal": true,
+          "tintColor": "#22C55E"
+        },
+        {
+          "class": "DepictionImageView",
+          "URL": "https://rain1-d1l.pages.dev/assets/common/gradient_line.png",
+          "height": 2,
+          "horizontalPadding": 0
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "免责声明",
+          "textColor": "#22C55E"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "本插件仅供个人学习研究使用，请勿用于任何非法用途。使用本插件所造成的一切后果由用户自行承担，作者不承担任何法律责任。",
+          "useSpacing": true,
+          "textColor": "#999999"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "© 2026 Rain Studio",
+          "useSpacing": false,
+          "textColor": "#BBBBBB",
+          "alignment": 1
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.3.1",
+          "textColor": "#22C55E"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 🎉 发布 Rain的灵动电量 1.3.1\n- 智能环岛主题与电池详情面板\n- 动态环岛皮肤、App 独立皮肤与色彩气场",
+          "useSpacing": true,
+          "textColor": "#22C55E"
+        }
+      ]
+    }
+  ]
+}
