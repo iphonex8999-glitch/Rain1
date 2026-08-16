@@ -87,18 +87,18 @@ Name: Rain的Dock
 SileoDepiction: https://rain1-d1l.pages.dev/sileodepictions/com.rain.dock.json
 
 Package: com.rain.dynamicbattery
-Version: 1.3.1
+Version: 1.5.0
 Architecture: iphoneos-arm64
 Maintainer: Rain
-Installed-Size: 312
+Installed-Size: 412
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.rain.dynamicbattery_1.3.1_iphoneos-arm64.deb
-Size: 97706
-MD5sum: eff4d3c48d42d8e9de4e1d94915d4ee3
-SHA1: 10ef17d0be161816ec17a8ef24ba3ef73f4a13d3
-SHA256: 8bf79e10e1e18605d387eea8fe484e05126f0ee36c13705d71367e57375bef08
+Filename: ./debs/com.rain.dynamicbattery_1.5.0_iphoneos-arm64.deb
+Size: 131618
+MD5sum: 710b97f8b32e5e324e10805c79a7563b
+SHA1: 0fd4fdd3091413f371e799dd586c2f94054cbc27
+SHA256: 788ce4170458a49969402df937aeee68454f9e88fd1805b49bffffa37f084015
 Section: Tweaks
-Description: 智能环岛、自定义电池面板与动态皮肤。适配 iPhone 15 Pro Max、iPhone 15 Pro、iPhone 15 Plus、iPhone 15。
+Description: 智能环岛、耗电黑匣子与电池寿命护照。适配 iPhone 15 Pro Max、iPhone 15 Pro、iPhone 15 Plus、iPhone 15。
 Author: Rain
 Name: Rain的灵动电量
 SileoDepiction: https://rain1-d1l.pages.dev/sileodepictions/com.rain.dynamicbattery.json
